@@ -1,0 +1,38 @@
+.Swatch {
+    margin-bottom: 2em;
+}
+
+.Color-swatch {
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 15px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.Color-swatch--blue {
+    background: var(--umbrella-blue);
+}
+
+.Color-swatch--pink {
+    
+    background: var(--umbrella-pink);
+}
+
+.Color-swatch--yellow {
+    background: var(--umbrella-yellow);
+}
+
+.Color-active--blue {
+    border: solid 5px var(--border-blue);
+}
+
+.Color-active--yellow {
+    border: solid 5px var(--border-yellow);
+}
+
+.Color-active--pink {
+    border: solid 5px var(--border-pink);
+}

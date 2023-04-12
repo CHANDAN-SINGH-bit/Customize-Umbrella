@@ -1,0 +1,31 @@
+:root {
+  /* Colors */
+  --umbrella-blue: rgb(18, 88, 141);
+  --umbrella-pink: #DB518B;
+  --umbrella-yellow: #FDD041;
+  --background-blue: #E6F6FC;
+  --backgound-pink: #ffdfec;;
+  --background-yellow: #FFFAED;
+  --border-blue: #7ED0EF;
+  --border-yellow: #FFEAB2;
+  --border-pink: #fa92be;
+  --text: #2f2f2f;
+	--text-subtle: #868686;
+
+  /* Grid */
+  --grid-columns: 12;
+
+  /* Fonts */
+  --font-size: 16px;
+  --font-size-s: 12px;
+  --font-height: 20px;
+  --font-weight-bold: 700;
+
+  /* Animation */
+  --animation: loader-spin 3s linear;
+}
+
+@keyframes loader-spin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}

@@ -1,0 +1,31 @@
+.Umbrella-image {
+    height: 400px;
+    max-width: 100%;
+    transition: opacity 1s linear;
+}
+
+.Umbrella-loading {
+    opacity: 1;
+    height: 50px;
+    animation: var(--animation);
+    transition: opacity 2s linear, height 2s step-start;
+}
+
+.d-none {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition-timing-function: linear, step-end;
+}
+
+@media (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+    .Umbrella {
+        padding: 50px 20px 10px;
+        height: 300px;
+        display: flex;
+    }
+ 
+    .Umbrella-image {
+        max-height: 100%;
+    }
+}

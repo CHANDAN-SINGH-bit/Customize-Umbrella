@@ -1,0 +1,11 @@
+.Loader--blue {
+    fill: var(--umbrella-blue);
+}
+
+.Loader--pink {
+    fill: var(--umbrella-pink);
+}
+
+.Loader--yellow {
+    fill: var(--umbrella-yellow);
+}
